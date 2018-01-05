@@ -1,29 +1,18 @@
+#### Peppa Pig App
+
 The BBC are looking to improve their online offering of educational content by developing some interactive apps that display information in a fun and interesting way.
 
 Your task is to make an MVP to put forward to them - this may only be for a small set of information, and may only showcase some of the features to be included in the final app. You might use an API to bring in content or a database to store facts.
 
 
-Don’t commit without presence and consent of everyone
+### MVP
+1. App should display a TV set in the centre of the page with icons around to enter different activities.
+  - when page is opened will show an introduction video (perhaps Peppa Pig theme) on the TV screen.
+2. Daddy Pig activity: TV will display google map of where Daddy Pig has gone with information about the location.
+3. Mummy Pig activity: TV will display various animal characters from Peppa Pig with images of their real counterparts.
 
-Confirm your branch and feature
-
-Procedure:
-1, git checkout develop
-2, git pull origin develop
-3, git checkout -b feature/blah blah blah
-4, do your code
-5, git add .
-6, git commit -m “meaningful message”
-
-Steps for merging
-
-1, git checkout develop
-2, git pull origin develop
-3 git checkout feature/blah
-4, git merge develop
-5 if window pops up jump to step 8
-5 if conflicts fix any conflicts
-6 git add .
-7 git commit -m “resolved conflicts”
-8 git push origin feature/blah blah blah
-9 open pull request on github
+## Extensions
+1. Peppa Pig activity: TV will become a canvas for drawing.
+2. Madame Gazelle activity: TV will play songs or videos.
+3. Daddy Pig activity will have functionality to read the information out loud.
+4. Mummy Pig activity will play animal noises for each animal.
