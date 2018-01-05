@@ -2,24 +2,30 @@ const express = require('express');
 const papapigRouter = express.Router();
 const MongoClient = require('mongodb').MongoClient;
 
-MongoClient.connect('mongodb://localhost:27017/peppa_pigs', function(err, database){
-  if (err) return;
-  db = databse;
-});
+MongoClient.connect('mongodb://localhost:27017', function(err, client) {
+  if (err) {
+    console.log(err);
+    return;
+  }
+  const db = client.db("peppa_pigs");
 
-//Index
-papapigRouter.get('/', function(req, res){
-  db.collection('cities').find().toArray( function( err, results ){
+  console.log('Connected to database');
 
-    if(err) {
-      console.log("Error: " + err.toString());
-      res.json( false );
-    }
+  //Index
+  papapigRouter.get('/', function(req, res){
+    db.collection('cities').find().toArray( function( err, result ){
 
-    res.json(results);
+      if(err) {
+        console.log(err);
+        res.status(500);
+        res.send();
+        return;
+      }
+
+      res.json(result);
+    })
   })
 
-});
-
+})
 
 module.exports = papapigRouter;
