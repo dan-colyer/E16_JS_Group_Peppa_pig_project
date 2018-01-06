@@ -1,11 +1,23 @@
 #TVscreen {
   border: 5px solid yellow;
-  width: 600px
-  height: 600px
+  width: 600px;
+  height: 600px;
 }
 
 #papapig {
   border: 5px solid yellow;
-  width: 100px
-  height: 100px
+  width: 100px;
+  height: 100px;
+}
+
+#papapig-section {
+  border: 5px solid yellow;
+  width: 600px;
+  height: 600px;
+}
+
+#TV-section {
+  border: 5px solid yellow;
+  width: 600px;
+  height: 600px;
 }
