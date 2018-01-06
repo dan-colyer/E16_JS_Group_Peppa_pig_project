@@ -4,7 +4,7 @@ const MongoClient = require('mongodb').MongoClient;
 
 MongoClient.connect('mongodb://localhost:27017/peppa_pigs', function(err, database){
   if (err) return;
-  db = databse;
+  db = database;
 });
 
 //Index
