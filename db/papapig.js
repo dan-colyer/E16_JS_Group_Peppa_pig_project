@@ -17,7 +17,8 @@ db.cities.insert(
       ],
       "flag": "https://restcountries.eu/data/gbr.svg",
       "place of interest": "Buckingham Palace",
-      "img": "Buckingham Palace"
+      "img": "Buckingham Palace",
+      "video": "https://www.youtube.com/watch?v=X8zLJlU_-60"
     },
     {
       "name":"Paris",
@@ -32,7 +33,8 @@ db.cities.insert(
       ],
       "flag": "https://restcountries.eu/data/fra.svg",
       "place of interest": "The Louvre",
-      "img": "The Louvre"
+      "img": "The Louvre",
+      "video": "https://www.youtube.com/watch?v=UfEiKK-iX70"
     },
     {
       "name":"Beijing",
@@ -47,7 +49,8 @@ db.cities.insert(
       ],
       "flag": "https://restcountries.eu/data/chn.svg",
       "place of interest": "The Great Wall of China",
-      "img": "The Great Wall of China"
+      "img": "The Great Wall of China",
+      "video": ""
     }
     {
       "name":"Canberra",
