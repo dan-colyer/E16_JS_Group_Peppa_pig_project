@@ -1,7 +1,19 @@
+#TV-section {
+  border: 5px solid yellow;
+  width: 400px;
+  height: 400px;
+}
+
 #TVscreen {
   border: 5px solid yellow;
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
+}
+
+#papapig-section {
+  border: 5px solid yellow;
+  width: 150px;
+  height: 150px;
 }
 
 #papapig {
@@ -10,14 +22,38 @@
   height: 100px;
 }
 
-#papapig-section {
+#mamapig-section {
   border: 5px solid yellow;
-  width: 600px;
-  height: 600px;
+  width: 150px;
+  height: 150px;
 }
 
-#TV-section {
+#mamapig {
   border: 5px solid yellow;
-  width: 600px;
-  height: 600px;
+  width: 100px;
+  height: 100px;
+}
+
+#peppapig-section {
+  border: 5px solid yellow;
+  width: 150px;
+  height: 150px;
+}
+
+#peppapig {
+  border: 5px solid yellow;
+  width: 100px;
+  height: 100px;
+}
+
+#madamGazelle-section {
+  border: 5px solid yellow;
+  width: 150px;
+  height: 150px;
+}
+
+#madamGazelle {
+  border: 5px solid yellow;
+  width: 100px;
+  height: 100px;
 }
