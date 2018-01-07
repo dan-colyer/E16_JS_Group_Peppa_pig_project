@@ -1,5 +1,5 @@
 const express = require('express');
-const papapigRouter = express.Router();
+const papapigRouter = new express.Router();
 const MongoClient = require('mongodb').MongoClient;
 
 MongoClient.connect('mongodb://localhost:27017', function(err, client) {
