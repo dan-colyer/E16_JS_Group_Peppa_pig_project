@@ -21,11 +21,11 @@ MongoClient.connect('mongodb://localhost:27017', function(err, client) {
         res.send();
         return;
       }
-      // const randomNumber = function(max) {
-      //   return Math.floor(Math.random() * Math.floor(max));
-      // }
-      // const randomAnimal = randomNumber(db.collection('animals').find().toArray.length)
-      res.json(result);
+      const randomNumber = function(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+      }
+      const randomAnimalIndex = randomNumber(result.length);
+      res.json(result[randomAnimalIndex]);
     })
   })
 
