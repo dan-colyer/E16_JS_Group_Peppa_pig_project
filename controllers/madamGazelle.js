@@ -13,7 +13,7 @@ MongoClient.connect('mongodb://localhost:27017/', function(err, client) {
 
   //Index
   madamGazelleRouter.get('/', function(req, res){
-    db.collection('music').find().toArray( function( err, result ){
+    db.collection('videos').find().toArray( function( err, result ){
 
       if(err) {
         console.log(err);
