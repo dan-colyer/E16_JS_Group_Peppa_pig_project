@@ -6,15 +6,15 @@ db.videos.insert(
   [
     {
       "name":"The campsite",
-      "url": "https://www.youtube.com/watch?v=Sfwd9Z0srtU"
+      "embedURL": "<iframe width='560' height='315' src='https://www.youtube.com/embed/Sfwd9Z0srtU' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"The egg hunt",
-      "url": "https://www.youtube.com/watch?v=DysgBIOiIwE"
+      "embedURL": "<iframe width='560' height='315' src='https://www.youtube.com/embed/DysgBIOiIwE' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Sun, sea, and snow",
-      "url": "https://www.youtube.com/watch?v=HUSThHZ2cZ4"
+      "embedURL": "<iframe width='560' height='315' src='https://www.youtube.com/embed/HUSThHZ2cZ4' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
     }
   ]
 )
