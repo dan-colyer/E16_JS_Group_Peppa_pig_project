@@ -2,7 +2,7 @@ const express = require('express');
 const papapigRouter = new express.Router();
 const MongoClient = require('mongodb').MongoClient;
 
-MongoClient.connect('mongodb://localhost:27017', function(err, client) {
+MongoClient.connect('mongodb://localhost:27017/peppa_pigs', function(err, client) {
   if (err) {
     console.log(err);
     return;
