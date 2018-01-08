@@ -8,7 +8,7 @@ const MadamGazelleView = function() {
 MadamGazelleView.prototype.render = function(video) {
 
     requestGazelleAPI.get(function(allVideos) {
-<<<<<<< HEAD
+
       // console.log(allVideos);
 
       var randomVideo = allVideos[Math.floor(Math.random()*allVideos.length)];
@@ -16,12 +16,7 @@ MadamGazelleView.prototype.render = function(video) {
 
       const renderArea = document.querySelector('#render_area');
       renderArea.innerHTML = randomVideo.embedURL;
-=======
-      console.log(allVideos);
 
-      var randomVideo = allVideos[Math.floor(Math.random()*allVideos.length)];
-      console.log(randomVideo.url);
->>>>>>> develop
 
       // const ul = document.querySelector('#quotes');
       //   const li = document.createElement('li');
