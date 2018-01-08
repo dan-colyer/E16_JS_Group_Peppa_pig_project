@@ -51,7 +51,7 @@ db.cities.insert(
       "place of interest": "The Great Wall of China",
       "img": "The Great Wall of China",
       "video": ""
-    }
+    },
     {
       "name":"Canberra",
       "country": "Australia",
@@ -93,7 +93,7 @@ db.cities.insert(
       "official languages":[
         "Portuguese"
       ],
-      "flag": "https://restcountries.eu/data/bra.svg"
+      "flag": "https://restcountries.eu/data/bra.svg",
       "place of interest": "Itamaraty Palace",
       "img": "Itamaraty Palace"
     },
