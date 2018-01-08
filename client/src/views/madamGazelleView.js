@@ -1,5 +1,4 @@
 const AjaxRequest = require('../services/ajax_request.js');
-// const requestPaPaAPI = new AjaxRequest("http://localhost:3000/api/papapig");
 const requestGazelleAPI = new AjaxRequest("http://localhost:3000/api/madamgazelle");
 
 const MadamGazelleView = function() {
@@ -10,6 +9,10 @@ MadamGazelleView.prototype.render = function(video) {
 
     requestGazelleAPI.get(function(allVideos) {
       console.log(allVideos);
+
+      var randomVideo = allVideos[Math.floor(Math.random()*allVideos.length)];
+      console.log(randomVideo.url);
+
       // const ul = document.querySelector('#quotes');
       //   const li = document.createElement('li');
       //   const text = document.createElement('p');
