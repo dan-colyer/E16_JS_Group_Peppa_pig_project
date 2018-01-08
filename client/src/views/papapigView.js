@@ -13,6 +13,10 @@ PapapigView.prototype.render = function() {
 
       const mainRenderDiv = document.querySelector('#render_area');
 
+      while(mainRenderDiv.firstChild){
+        mainRenderDiv.removeChild(mainRenderDiv.firstChild);
+      }
+      
       const divCityName = document.createElement('h3');
       mainRenderDiv.appendChild(divCityName);
       divCityName.innerText = city.name;
