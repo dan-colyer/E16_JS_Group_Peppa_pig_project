@@ -30,6 +30,7 @@ MamaPigView.prototype.render = function() {
       const ppImageDiv = addDivToAnotherDiv(renderDiv, 'ppImageDiv');
       const realImageDiv = addDivToAnotherDiv(renderDiv, 'realImageDiv');
       const buttonDiv = addDivToAnotherDiv(renderDiv, 'buttonDiv');
+      const soundIconDiv = addDivToAnotherDiv(renderDiv, 'soundIconDiv');
 
       const animalName = addNameToDiv(nameDiv, 'animalName', this.name);
       const animalType = addSpeciesToDiv(typeDiv, 'animalType', this.species);
@@ -37,6 +38,7 @@ MamaPigView.prototype.render = function() {
       const realImage = addImageToDiv(realImageDiv,'realImage', __dirname + this.realImage);
       const animalSound = createSoundElement(this.sound);
       const soundButton = addSoundButtonToDiv(buttonDiv, 'soundButton', animalSound, this.button);
+      const soundIcon = addSoundButtonToDiv(soundIconDiv, 'soundButton', animalSound, __dirname + 'images/mamapig/buttons/soundIcon.svg');
 
 
     }.bind(this));
@@ -44,14 +46,14 @@ MamaPigView.prototype.render = function() {
 }
 
 let addNameToDiv = function(div, id, name) {
-  const thisName = document.createElement('h2');
+  const thisName = document.createElement('h1');
   thisName.innerText = name;
   thisName.id = 'animalName';
   div.appendChild(thisName);
 }
 
 let addSpeciesToDiv = function(div, id, species) {
-  const thisSpecies = document.createElement('h3');
+  const thisSpecies = document.createElement('h1');
   thisSpecies.innerText = species;
   thisSpecies.id = 'animalType';
   div.appendChild(thisSpecies);

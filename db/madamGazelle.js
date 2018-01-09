@@ -15,6 +15,10 @@ db.videos.insert(
     {
       "name":"Sun, sea, and snow",
       "embedURL": "<iframe width='560' height='315' src='https://www.youtube.com/embed/HUSThHZ2cZ4' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
+    },
+    {
+      "name":"Rescuing Mrs. Fish",
+      "embedURL": "<iframe width='560' height='315' src='https://www.youtube.com/embed/zYW0Jc1rK1c' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
     }
   ]
 )

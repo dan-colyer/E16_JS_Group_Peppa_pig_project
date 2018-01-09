@@ -5,15 +5,16 @@ const MamapigView = require('./views/mamaPigView.js')
 const app = function(){
   console.log("Hello world")
 
-  const papapigButton = document.querySelector('#papapig-button');
+
+  const papapigImage = document.querySelector('#papapig');
   const papapigView = new PapapigView();
-  papapigButton.addEventListener('click', papapigView.render);
+  papapigImage.addEventListener('click', papapigView.render);
 
-  const madamGazelleButton = document.querySelector('#madamGazelle-button');
+  const madamGazelleImage = document.querySelector('#madamGazelle');
   const madamGazelleView = new MadamGazelleView();
-  madamGazelleButton.addEventListener('click', madamGazelleView.render);
+  madamGazelleImage.addEventListener('click', madamGazelleView.render);
 
-  const mamapigButton = document.querySelector('#mamapig-button');
+  const mamapigButton = document.querySelector('#mamapig');
   const mamapigView = new MamapigView();
   mamapigButton.addEventListener('click', mamapigView.render);
 }
