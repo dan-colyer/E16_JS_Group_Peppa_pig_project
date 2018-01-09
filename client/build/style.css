@@ -4,7 +4,53 @@ body, html {
   padding: 0;
 }
 
-.container {
+#container {
+  background-image: url("./images/background_img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+
+  height: 100%;
+}
+
+#div_flexbox {
+  border-color: black;
+
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  margin: auto;
+  height: 100vh;
+  /* width: 34%; */
+  flex-grow: 1;
+}
+
+#col_left {
+  background-color: red;
+  width: 20%;
+}
+
+#col_center {
+  background-color: yellow;
+  width: 60%;
+}
+
+#col_right {
+  background-color: green;
+  width: 20%;
+}
+
+
+
+
+
+/* .container {
   background-image: url("./images/background_img.png");
   background-size: cover;
   width: 100%;
@@ -14,6 +60,7 @@ body, html {
   margin: 0;
   padding: 0;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 
 header.menu {
@@ -68,14 +115,6 @@ header.menu a:hover {
   padding-top: 95px;
 }
 
-.center-content img {
-  width: 750px;
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .top-right-side-content img {
   width: 150px;
   height: 200px;
@@ -99,16 +138,49 @@ header.menu a:hover {
   right: 35px;
 }
 
-.top-left-side-content img:hover{
-  transform: scale(1.2);
-}
-.bottom-left-side-content img:hover{
-  transform: scale(1.2);
-}
-.top-right-side-content img:hover{
-  transform: scale(1.2);
+#TV-section {
+  width: 750px;
+  height: 400px;
+  display: block;
+  background-image: url('images/tv.png');
+  background-repeat: no-repeat; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* z-index: 3; */
+  /* position: relative; */
+  /* border-color: red;
+  border-width: 10px;
+  border-spacing: 5px; */
 }
 
-.bottom-right-side-content img:hover{
-  transform: scale(1.2);
+
+
+/* TV Screen */
+/* #render_area { */
+  /* position: absolute;
+  z-index: 2; */
+  /* bottom: 200px;
+  margin: auto;
+  border-color: black;
+  border-style: dashed; */
 }
+
+/* mamapig */
+/* .top-left-side-content img:hover{
+  transform: scale(1.2);
+} */
+
+/* peppapig */
+/* .bottom-left-side-content img:hover{
+  transform: scale(1.2);
+} */
+
+/* papapig */
+/* .top-right-side-content img:hover{
+  transform: scale(1.2);
+} */
+
+/* madamgazelle */
+/* .bottom-right-side-content img:hover{
+  transform: scale(1.2);
+} */
