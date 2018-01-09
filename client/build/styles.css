@@ -1,18 +1,18 @@
 body {
-    background-image: './images/background_img.png';
+    /* background-image: './images/background_img.png'; */
     background-color: #42e5f4;
 }
 
 #TV-section {
   border: 5px solid yellow;
-  width: 400px;
-  height: 400px;
+  width: 1000px;
+  height: 800px;
 }
 
 #TVscreen {
   border: 5px solid yellow;
-  width: 400px;
-  height: 400px;
+  width: 560px;
+  height: 315px;
 }
 
 #papapig-section {
@@ -69,14 +69,14 @@ body {
   border: 5px solid black;
 }
 
-#ppImage {
-  width: 45%;
+#divMap {
+  width: 200px;
+  height: 200px;
+  border: 5px solid green;
 }
 
-#realImage {
-  width: 45%;
-}
-
-#ppImageDiv, #realImageDiv {
-  flex-wrap: wrap;
+#divCityImg {
+  width: 200px;
+  height: 200px;
+  border: 5px solid green;
 }
