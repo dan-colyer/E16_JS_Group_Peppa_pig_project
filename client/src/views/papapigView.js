@@ -18,6 +18,7 @@ PapapigView.prototype.render = function() {
       const divCombineMapAndImg = document.createElement('div');
       divCombineMapAndImg.id = 'mapAndImg';
       const divCityName = document.createElement('button');
+      divCityName.id = "city-name"
       divCityName.innerText = city.name;
       mainRenderDiv.appendChild(divCityName);
       mainRenderDiv.appendChild(divCombineMapAndImg);
