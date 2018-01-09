@@ -18,7 +18,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/gbr.svg",
       "place of interest": "Buckingham Palace",
       "img": "images/papapig/London_Buckingham_Palace.jpg",
-      "video": "https://www.youtube.com/watch?v=X8zLJlU_-60"
+      "embedURL": "<iframe width='640' height='360' src='https://www.youtube.com/embed/X8zLJlU_-60' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Paris",
@@ -34,7 +34,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/fra.svg",
       "place of interest": "The Louvre",
       "img": "images/papapig/Paris_The_Louvre.jpg",
-      "video": "https://www.youtube.com/watch?v=UfEiKK-iX70"
+      "embedURL": "<iframe width='640' height='360' src='https://www.youtube.com/embed/UfEiKK-iX70' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Beijing",
@@ -50,7 +50,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/chn.svg",
       "place of interest": "The Great Wall of China",
       "img": "images/papapig/Beijing_The_Great_Wall.jpg",
-      "video": ""
+      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/-UuJxmU6OCQ' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Canberra",
@@ -65,7 +65,8 @@ db.cities.insert(
       ],
       "flag": "https://restcountries.eu/data/aus.svg",
       "place of interest": "Parliament House",
-      "img": "images/papapig/Canberra_Parliament_House.jpg"
+      "img": "images/papapig/Canberra_Parliament_House.jpg",
+      "embedURL":""
     },
     {
       "name":"Washington, D.C.",
@@ -80,7 +81,8 @@ db.cities.insert(
       ],
       "flag": "https://restcountries.eu/data/usa.svg",
       "place of interest": "WashingtonDC_Smithsonian Institution",
-      "img": "images/papapig/WashingtonDC_Smithsonian_Institution.jpg"
+      "img": "images/papapig/WashingtonDC_Smithsonian_Institution.jpg",
+      "embedURL":""
     },
     {
       "name":"Brasília",
@@ -95,7 +97,8 @@ db.cities.insert(
       ],
       "flag": "https://restcountries.eu/data/bra.svg",
       "place of interest": "Itamaraty Palace",
-      "img": "images/papapig/Brasilia_Itamaraty_Palace.jpg"
+      "img": "images/papapig/Brasilia_Itamaraty_Palace.jpg",
+      "embedURL":""
     },
     {
       "name":"Pretoria",
@@ -118,7 +121,8 @@ db.cities.insert(
       ],
       "flag": "https://restcountries.eu/data/zaf.svg",
       "place of interest": "Union Buildings",
-      "img": "images/papapig/Pretoria_Union_Buildings.jpg"
+      "img": "images/papapig/Pretoria_Union_Buildings.jpg",
+      "embedURL":""
     },
     {
       "name":"Ottawa",
@@ -134,7 +138,8 @@ db.cities.insert(
       ],
       "flag": "https://restcountries.eu/data/can.svg",
       "place of interest": "Canadian Museum of History",
-      "img": "images/papapig/Canadian_Museum_of_History.jpg"
+      "img": "images/papapig/Canadian_Museum_of_History.jpg",
+      "embedURL":""
     },
     {
       "name":"Moscow",
@@ -149,7 +154,8 @@ db.cities.insert(
       ],
       "flag": "https://restcountries.eu/data/rus.svg",
       "place of interest": "Red Square",
-      "img": "images/papapig/Moscow_Red_Square.jpg"
+      "img": "images/papapig/Moscow_Red_Square.jpg",
+      "embedURL":""
     },
     {
       "name":"Dublin",
@@ -165,7 +171,8 @@ db.cities.insert(
       ],
       "flag": "https://restcountries.eu/data/irl.svg",
       "place of interest": "Guinness Storehouse",
-      "img": "images/papapig/Dublin_Guinness_Storehouse.jpg"
+      "img": "images/papapig/Dublin_Guinness_Storehouse.jpg",
+      "embedURL":""
     }
 
   ]

@@ -3,35 +3,47 @@ const requestPaPaAPI = new AjaxRequest("http://localhost:3000/api/papapig");
 const MapWrapper = require('../modules/googlemap.js');
 
 const PapapigView = function() {
-    this.mapCoords = [];
+
 }
 
 PapapigView.prototype.render = function() {
 
     requestPaPaAPI.get(function(city) {
+
       console.log(city);
 
       const mainRenderDiv = document.querySelector('#render_area');
+      mainRenderDiv.innerHTML = "";
 
-      while(mainRenderDiv.firstChild){
-        mainRenderDiv.removeChild(mainRenderDiv.firstChild);
-      }
-
-      const divCityName = document.createElement('h3');
-      mainRenderDiv.appendChild(divCityName);
+      const divCombineMapAndImg = document.createElement('div');
+      divCombineMapAndImg.id = 'mapAndImg';
+      const divCityName = document.createElement('button');
       divCityName.innerText = city.name;
+      mainRenderDiv.appendChild(divCityName);
+      mainRenderDiv.appendChild(divCombineMapAndImg);
+
+      divCityName.addEventListener('click', function(){
+        divCombineMapAndImg.innerHTML = "";
+        divCombineMapAndImg.innerHTML = city.embedURL;
+      });
 
       const divMap = document.createElement('div');
       divMap.id = "divMap";
-      mainRenderDiv.appendChild(divMap);
+      divCombineMapAndImg.appendChild(divMap);
       console.log(city.latlng);
       const mapWrapper = new MapWrapper(divMap, city.latlng, 1);
       mapWrapper.addMarker(city.latlng);
 
       const divCityImg = document.createElement('img');
       divCityImg.id = "divCityImg";
-      mainRenderDiv.appendChild(divCityImg);
+      divCombineMapAndImg.appendChild(divCityImg);
       divCityImg.src = __dirname + city.img;
+    });
+
+}
+
+module.exports = PapapigView;
+
 
       // const ul = document.querySelector('#quotes');
       //   const li = document.createElement('li');
@@ -39,8 +51,3 @@ PapapigView.prototype.render = function() {
       //   text.innerText = `${quote.name}: "${quote.quote}"`;
       //   li.appendChild(text);
       //   ul.appendChild(li);
-    });
-
-}
-
-module.exports = PapapigView;
