@@ -16,10 +16,7 @@ MadamGazelleView.prototype.render = function(video) {
 
       const renderArea = document.querySelector('#render_area');
       renderArea.innerHTML = randomVideo.embedURL;
-<<<<<<< HEAD
-=======
 
->>>>>>> bc3937ea7754625eee4d3e651045b5b65fac2eda
 
       // const ul = document.querySelector('#quotes');
       //   const li = document.createElement('li');
