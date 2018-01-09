@@ -4,47 +4,77 @@ body, html {
   padding: 0;
 }
 
+
+/* container setup */
 #container {
+  width: 100%;
   background-image: url("./images/background_img.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-
-
-
-  height: 100%;
-}
-
-#div_flexbox {
-  border-color: black;
-
+  margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  /* flex-wrap: wrap; */
-  align-items: center;
   justify-content: center;
 }
-
-.column {
-  margin: auto;
-  height: 100vh;
-  /* width: 34%; */
-  flex-grow: 1;
-}
-
-#col_left {
-  background-color: red;
+/* insides, yo */
+#col_left, #col_right {
   width: 20%;
+  background-color: #ccc;
+}
+#col_middle {
+  width: 70%;
+  height: 537px;
+  display: flex;
+  justify-content: center;
+  /* background-color: yellow; */
+}
+/* video */
+#render {
+  align-self: center;
+  z-index: 1
+}
+/* tv overlay */
+#tv_overlay {
+  width: 889px;
+  height: 500px;
+  position: absolute;
+  z-index: 100;
+  background-image: url('./images/tv.png');
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+/* piggies */
+.col_lr ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.col_lr ul li {
+  margin: 0 0 30px 0;
 }
 
-#col_center {
-  background-color: yellow;
-  width: 60%;
+.character_img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  border: 5px solid red;
 }
 
-#col_right {
-  background-color: green;
-  width: 20%;
+#mamapig {
+  background-image: url("/images/mummyPig.png");
 }
+
+#papapig {
+  background-image: url("/images/daddyPig.png");
+}
+
+#madamGazelle {
+  background-image: url("/images/madameGazelle.png");
+}
+
+#peppapig {
+  background-image: url("/images/peppa.png");
+}
+
+
 
 
 

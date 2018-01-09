@@ -14,8 +14,7 @@ const app = function(){
   const madamGazelleView = new MadamGazelleView();
   madamGazelleImage.addEventListener('click', madamGazelleView.render);
 
-
-  const mamapigButton = document.querySelector('#mamapig-button');
+  const mamapigButton = document.querySelector('#mamapig');
   const mamapigView = new MamapigView();
   mamapigButton.addEventListener('click', mamapigView.render);
 }
