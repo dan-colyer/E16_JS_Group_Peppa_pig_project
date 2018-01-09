@@ -80,3 +80,20 @@ body {
   height: 200px;
   border: 5px solid green;
 }
+
+#ppImage {
+  width: 30%;
+  /* height: 200px; */
+}
+
+#realImage {
+  width: 45%;
+}
+
+#ppImageDiv, #realImageDiv {
+  flex-wrap: wrap;
+
+#soundButton {
+  width: 30px;
+  height: 30px;
+}
