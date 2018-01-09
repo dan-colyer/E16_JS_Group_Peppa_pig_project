@@ -9,7 +9,8 @@ db.animals.insert(
       "type":"Cat",
       "ppImage":"images/mamapig/ppImages/Candy_Cat.png",
       "realImage":"images/mamapig/realImages/cat.jpg",
-      "sound":"sounds/cat.wav"
+      "sound":"sounds/cat.wav",
+      "button":"images/mamapig/buttons/cat.jpg"
     },
     {
       "name":"Danny Dog",

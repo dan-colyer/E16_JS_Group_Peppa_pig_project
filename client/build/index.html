@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html lang='en'>
+<html>
   <head>
     <meta charset="utf-8">
     <title>Peppa Pig & Family</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="bundle.js"></script>
   </head>
   <body>
-    <h1>Welcome to Peppa's Home!</h1>
-
-    <div id="papapig-section">
-      <img id="papapig" src="/images/papapig.jpg" alt="papapig">
-      <button type="button" id="papapig-button">Where is Papapig?</button>
+<!-- header -->
+    <header class="menu">
+        <nav>
+          <ul>
+            <a href="">Home</a>
+            <a href="about">About</a>
+          </ul>
+        </nav>
+    </header>
+<!--content -->
+    <div class="container">
+      <div class="wrapper">
+        <div class="left-side-content">
+          <div "mamapig-section" class="top-left-side-content">
+            <img "mamapig" src="./images/mummyPig.png" alt="Mummy Pig">
+            <button type="button" id="mamapig-button">Mummy Pig's Animal Farm</button>
+          </div>
+          <div "peppapig-section" class="bottom-left-side-content">
+            <img id="peppapig" src="./images/peppa.png" alt="Peppa Pig">
+            <button type="button" id="papapig-button">Drawing Time</button>
+          </div>
+        </div>
+        <div id="TV-section" class="center-content">
+          <img id="TVscreen" src="./images/tv.png" alt="TV set">
+          <div id="render_area"></div>
+        </div>
+        <div class="right-side-content">
+          <div id="papapig-section" class="top-right-side-content">
+            <img id="papapig" src="./images/daddyPig.png" alt="Daddy Pig">
+            <button type="button" id="papapig-button">Where is Papa Pig?</button>
+          </div>
+          <div id="madamGazelle-section" class="bottom-right-side-content">
+            <img id="madamGazelle" src="./images/madameGazelle.png" alt="Madame Gazelle">
+            <button type="button" id="madamGazelle-button">Video Time</button>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div id="mamapig-section">
-      <img id="mamapig" src="/images/mamapig.png" alt="mamapig">
-      <button type="button" id="mamapig-button">mamapig's Animal Farm</button>
-    </div>
-
-    <div id="peppapig-section">
-      <img id="peppapig" src="/images/peppa_logo.jpg" alt="peppapig">
-      <button type="button" id="papapig-button">Drawing Time</button>
-    </div>
-
-    <div id="madamGazelle-section">
-      <img id="madamGazelle" src="/images/madamGazelle.png" alt="madamGazelle">
-      <button type="button" id="madamGazelle-button">Video Time</button>
-    </div>
-
-    <div id="TV-section">
-      <img id="TVscreen" src="/images/tv.png" alt="TV">
-      <div id="render_area"></div>
-    </div>
-
-
+<!-- footer -->
   </body>
 </html>
