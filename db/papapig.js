@@ -9,8 +9,8 @@ db.cities.insert(
       "country": "UK",
       "region":"Europe",
       "latlng": {
-        lat: 54,
-        lng: -2
+        lat: 51.507222,
+        lng: -0.1275
       },
       "official languages":[
         "English"
@@ -25,8 +25,8 @@ db.cities.insert(
       "country": "France",
       "region":"Europe",
       "latlng": {
-        lat: 46,
-        lng: 2
+        lat: 48.8567,
+        lng: 2.3508
       },
       "official languages":[
         "French"
@@ -41,8 +41,8 @@ db.cities.insert(
       "country": "China",
       "region":"Asia",
       "latlng": {
-        lat: 35,
-        lng: 105
+        lat: 39.916667,
+        lng: 116.383333
       },
       "official languages":[
         "Chinese"
@@ -57,8 +57,8 @@ db.cities.insert(
       "country": "Australia",
       "region":"Oceania",
       "latlng": {
-        lat: -27,
-        lng: 133
+        lat: -35.3075,
+        lng: 149.124417
       },
       "official languages":[
         "English"
@@ -72,8 +72,8 @@ db.cities.insert(
       "country": "US",
       "region":"Americas",
       "latlng": {
-        lat: 38,
-        lng: -97
+        lat: 38.904722,
+        lng: -77.016389
       },
       "official languages":[
         "English"
@@ -87,8 +87,8 @@ db.cities.insert(
       "country": "Brazil",
       "region":"Americas",
       "latlng": {
-        lat: -10,
-        lng: -55
+        lat: -15.793889,
+        lng: -47.882778
       },
       "official languages":[
         "Portuguese"
@@ -102,8 +102,8 @@ db.cities.insert(
       "country": "South Africa",
       "region":"Africa",
       "latlng": {
-        lat: -29,
-        lng: 24
+        lat: -25.746111,
+        lng: 28.188056
       },
       "official languages":[
         "Afrikaans",
@@ -125,8 +125,8 @@ db.cities.insert(
       "country": "Canada",
       "region":"Americas",
       "latlng": {
-        lat: 60,
-        lng: -95
+        lat: 45.416667,
+        lng: -75.683333
       },
       "official languages":[
         "English",
@@ -141,8 +141,8 @@ db.cities.insert(
       "country": "Russia",
       "region":"Europe",
       "latlng": {
-        lat: 60,
-        lng: 100
+        lat: 55.75,
+        lng: 37.616667
       },
       "official languages":[
         "Russian"
@@ -156,8 +156,8 @@ db.cities.insert(
       "country": "Ireland",
       "region":"Europe",
       "latlng": {
-        lat: 53,
-        lng: -8
+        lat: 53.349722,
+        lng: -6.260278
       },
       "official languages":[
         "English",

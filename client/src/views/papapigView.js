@@ -16,16 +16,17 @@ PapapigView.prototype.render = function() {
       while(mainRenderDiv.firstChild){
         mainRenderDiv.removeChild(mainRenderDiv.firstChild);
       }
-      
+
       const divCityName = document.createElement('h3');
       mainRenderDiv.appendChild(divCityName);
       divCityName.innerText = city.name;
 
       const divMap = document.createElement('div');
       divMap.id = "divMap";
-      const mapWrapper = new MapWrapper(divMap, city.latLng, 3);
-      mapWrapper.addMarker(city.latLng);
       mainRenderDiv.appendChild(divMap);
+      console.log(city.latlng);
+      const mapWrapper = new MapWrapper(divMap, city.latlng, 1);
+      mapWrapper.addMarker(city.latlng);
 
       const divCityImg = document.createElement('img');
       divCityImg.id = "divCityImg";
