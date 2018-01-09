@@ -7,6 +7,7 @@ const MamaPigView = function() {
   this.ppImage;
   this.realImage;
   this.sound;
+  this.button;
 }
 
 
@@ -18,28 +19,41 @@ MamaPigView.prototype.render = function() {
       this.ppImage = animal.ppImage;
       this.realImage = animal.realImage;
       this.sound = animal.sound;
+      this.button = animal.button;
 
 
       const renderDiv = document.querySelector('#render_area');
       renderDiv.innerHTML = "";
 
-      const nameAndSpecies = addNameAndSpeciesToDiv(renderDiv, this.name, this.species);
-      const peppaImage = addImageToDiv(renderDiv, 'ppImage', __dirname + this.ppImage);
-      const realImage = addImageToDiv(renderDiv,'realImage', __dirname + this.realImage);
+      const nameDiv = addDivToAnotherDiv(renderDiv, 'nameDiv');
+      const typeDiv = addDivToAnotherDiv(renderDiv, 'typeDiv');
+      const ppImageDiv = addDivToAnotherDiv(renderDiv, 'ppImageDiv');
+      const realImageDiv = addDivToAnotherDiv(renderDiv, 'realImageDiv');
+      const buttonDiv = addDivToAnotherDiv(renderDiv, 'buttonDiv');
+
+      const animalName = addNameToDiv(nameDiv, 'animalName', this.name);
+      const animalType = addSpeciesToDiv(typeDiv, 'animalType', this.species);
+      const peppaImage = addImageToDiv(ppImageDiv, 'ppImage', __dirname + this.ppImage);
+      const realImage = addImageToDiv(realImageDiv,'realImage', __dirname + this.realImage);
       const animalSound = createSoundElement(this.sound);
-      const soundButton = addButtonToDiv(renderDiv, 'soundButton', animalSound);
+      const soundButton = addSoundButtonToDiv(buttonDiv, 'soundButton', animalSound, this.button);
 
 
     }.bind(this));
 
 }
 
-let addNameAndSpeciesToDiv = function(div, name, species) {
+let addNameToDiv = function(div, id, name) {
   const thisName = document.createElement('h2');
   thisName.innerText = name;
-  const thisSpecies = document.createElement('h4');
-  thisSpecies.innerText = species;
+  thisName.id = 'animalName';
   div.appendChild(thisName);
+}
+
+let addSpeciesToDiv = function(div, id, species) {
+  const thisSpecies = document.createElement('h3');
+  thisSpecies.innerText = species;
+  thisSpecies.id = 'animalType';
   div.appendChild(thisSpecies);
 }
 
@@ -58,10 +72,11 @@ let addImageToDiv = function(div, id, src) {
   return img;
 }
 
-let addButtonToDiv = function(div, id, sound) {
-  const button = document.createElement('button');
+let addSoundButtonToDiv = function(div, id, sound, buttonImg) {
+  const button = document.createElement('input');
   button.id = id;
-  button.innerText = 'Listen'
+  button.type = 'image';
+  button.src = buttonImg;
   div.appendChild(button);
   button.addEventListener('click', function() {
     sound.play();
