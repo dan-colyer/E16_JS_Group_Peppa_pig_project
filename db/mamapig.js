@@ -8,7 +8,7 @@ db.animals.insert(
       "name":"Candy Cat",
       "type":"Cat",
       "ppImage":"images/mamapig/ppImages/Candy_Cat.png",
-      "realImage":"images/mamapig/realImages/cat.jpg",
+      "realImage":"images/mamapig/realImages/cat.png",
       "sound":"sounds/cat.wav",
       "button":"images/mamapig/buttons/cat.jpg"
     },
@@ -39,8 +39,8 @@ db.animals.insert(
     {
       "name":"Mr Bull",
       "type":"Bull",
-      "ppImage":"images/mamapig/ppImages/mr_bull.jpg",
-      "realImage":"images/mamapig/realImages/bull.jpg",
+      "ppImage":"images/mamapig/ppImages/mr_bull.png",
+      "realImage":"images/mamapig/realImages/bull.png",
       "sound":"sounds/cow.wav",
       "button":"images/mamapig/buttons/cow.png"
     },
