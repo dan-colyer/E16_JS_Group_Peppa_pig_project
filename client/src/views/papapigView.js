@@ -43,6 +43,8 @@ PapapigView.prototype.render = function() {
       divCityImg.src = __dirname + city.img;
     });
 
+
+
 }
 
 module.exports = PapapigView;
