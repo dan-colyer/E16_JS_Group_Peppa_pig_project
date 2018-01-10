@@ -71,7 +71,6 @@ header.menu a:hover {
   background-image: url('./images/tv.png');
   background-repeat: no-repeat;
   pointer-events: none;
-
 }
 
 #render_area{
@@ -102,28 +101,41 @@ header.menu a:hover {
 
 .character_img {
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   background-repeat: no-repeat;
-  border: 5px solid red;
-  background-size: 160px 200px;
+  background-size: 200px 200px;
+  background-position: center;
+}
+
+.character_img:hover {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 250px 250px;
   background-position: center;
 }
 
 #mamapig {
-  background-image: url("/images/mummyPig.png");
+  background-image: url("/images/mummy_button.png");
 }
 
 #papapig {
-  background-image: url("/images/daddyPig.png");
+  background-image: url("/images/daddy_button1.png");
 }
 
 #madamGazelle {
-  background-image: url("/images/george.png");
+<<<<<<< HEAD
+  background-image: url("/images/george_button.png");
+
+=======
+  background-image: url("/mages/george_button.png");
+>>>>>>> 6b2c0a7559a321f6d2ab0ea4bf1a936b25f756ac
 }
 
 #peppapig {
-  background-image: url("/images/peppa.png");
+  background-image: url("/images/peppa_button.png");
 }
 
 /* Dan */
