@@ -1,7 +1,13 @@
+@font-face {
+font-family: peppa_pig;
+src: url(/fonts/peppa_pig.ttf);
+}
+
 body, html {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: peppa_pig;
 }
 
 header.menu {
@@ -169,6 +175,7 @@ iframe {
   color: white;
   padding: 1px 32px;
   text-align: center;
+  font-family: peppa_pig;
   /* text-decoration: none; */
   display: inline-block;
   font-size: 50px;
@@ -177,7 +184,10 @@ iframe {
 }
 
 #cityButton:hover {
-  font-weight: 600;
+  font-weight: 9000;
+  background-color: #5E80BE;
+  color: #FD9CCB;
+  transform: scale(1.1);
 }
 
 #render_area iframe {
