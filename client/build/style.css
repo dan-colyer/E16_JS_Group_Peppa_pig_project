@@ -329,9 +329,19 @@ header.menu a:hover {
   text-align: center;
 }
 
-#larderImageDiv, larderProfileDiv {
+#larderImageDiv {
   width: 50%;
   height: 75%;
+}
+
+#larderProfileDiv {
+  width: 45%;
+  height: 75%;
+  right: 5%;
+}
+
+#larderProfile {
+  font-size: 18px;
 }
 
 #larderImage {
