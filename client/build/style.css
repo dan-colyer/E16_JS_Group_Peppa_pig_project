@@ -123,16 +123,11 @@ header.menu a:hover {
 }
 
 #papapig {
-  background-image: url("/images/daddy_button1.png");
+  background-image: url("/images/daddy_button.png");
 }
 
 #madamGazelle {
-<<<<<<< HEAD
   background-image: url("/images/george_button.png");
-
-=======
-  background-image: url("/mages/george_button.png");
->>>>>>> 6b2c0a7559a321f6d2ab0ea4bf1a936b25f756ac
 }
 
 #peppapig {
@@ -225,10 +220,15 @@ iframe {
   /* background-color: black; */
 }
 
-#nameDiv, #typeDiv {
+#nameDiv {
   width: 50%;
   height: 20%;
   /* border: 1px solid black; */
+}
+
+#typeDiv {
+  width: 40%,
+  height: 20%
 }
 
 #ppImageDiv, #realImageDiv {
@@ -238,13 +238,21 @@ iframe {
 }
 
 #soundIconDiv {
-  display: block;
-  width: 5%;
-  border: 2px solid black;
-  height: 5%;
-  top: 10%;
-  left: 93%;
+  /* display: block; */
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  /* border: 2px solid black; */
+  height: 10%;
+  margin-top: 15px;
+  top: 25%;
+  left: 99%;
   z-index: 99;
+}
+
+#soundButton {
+  max-width: 100%;
+  max-height: 100%
 }
 
 #animalName {

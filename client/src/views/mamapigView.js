@@ -27,9 +27,9 @@ MamaPigView.prototype.render = function() {
 
       const nameDiv = addDivToAnotherDiv(renderDiv, 'nameDiv');
       const typeDiv = addDivToAnotherDiv(renderDiv, 'typeDiv');
+      const soundIconDiv = addDivToAnotherDiv(renderDiv, 'soundIconDiv');
       const ppImageDiv = addDivToAnotherDiv(renderDiv, 'ppImageDiv');
       const realImageDiv = addDivToAnotherDiv(renderDiv, 'realImageDiv');
-      const soundIconDiv = addDivToAnotherDiv(renderDiv, 'soundIconDiv');
 
       const animalName = addNameToDiv(nameDiv, 'animalName', this.name);
       const animalType = addSpeciesToDiv(typeDiv, 'animalType', this.species);
