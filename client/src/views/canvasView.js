@@ -6,11 +6,30 @@ CanvasView.prototype.render = function(){
   console.log("canvas render")
   const renderArea = document.querySelector('#render_area');
   renderArea.innerHTML = "";
-  const canvas = document.querySelector('canvas')
+
+  const canvas = document.createElement('canvas');
+  canvas.id = "canvas";
+  const input = document.createElement('input');
+  input.id = "color-picker";
+  input.type = "color";
+  const eraser = document.createElement('button');
+  eraser.innerText = "Eraser";
+  eraser.id = "eraser";
+
+  renderArea.appendChild(canvas);
+  renderArea.appendChild(input);
+  renderArea.appendChild(eraser);
+
+  const cleanBoard = function(){
+    context.clearRect(0, 0, canvas.width, canvas.height);
+  }
+
+  eraser.addEventListener('click', cleanBoard);
+
   canvas.className = "peppapig_canvas"
   const context = canvas.getContext('2d')
 
-  // context.clearRect(0, 0, canvas.width, canvas.height);
+
 
   let mouseDown = false;
   canvas.width = canvas.offsetWidth;
@@ -43,7 +62,7 @@ CanvasView.prototype.render = function(){
       canvas.style.cursor = "pointer";
 
       context.beginPath();
-      context.strokeStyle = "black";
+      context.strokeStyle = this.value;
 
       if(lastX == null) {
         lastX = positionX;

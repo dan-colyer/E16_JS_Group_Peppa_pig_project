@@ -24,8 +24,9 @@ PapapigView.prototype.render = function() {
       mainRenderDiv.appendChild(divCombineMapAndImg);
 
       divCityName.addEventListener('click', function(){
-        divCombineMapAndImg.innerHTML = "";
-        divCombineMapAndImg.innerHTML = city.embedURL;
+        // divCombineMapAndImg.innerHTML = "";
+        mainRenderDiv.innerHTML = "";
+        mainRenderDiv.innerHTML = city.embedURL;
       });
 
       const divMap = document.createElement('div');
@@ -40,6 +41,8 @@ PapapigView.prototype.render = function() {
       divCombineMapAndImg.appendChild(divCityImg);
       divCityImg.src = __dirname + city.img;
     });
+
+
 
 }
 
