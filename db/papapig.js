@@ -18,7 +18,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/gbr.svg",
       "place of interest": "Buckingham Palace",
       "img": "images/papapig/London_Buckingham_Palace.jpg",
-      "embedURL": "<iframe width='640' height='360' src='https://www.youtube.com/embed/UrugXfGaHes' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
+      "embedURL": "<iframe width='640' height='360' src='https://www.youtube.com/embed/UrugXfGaHes?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Paris",
