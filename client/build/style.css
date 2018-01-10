@@ -82,9 +82,6 @@ header.menu a:hover {
   margin-top: 86px;
   margin-left: 44px;
   z-index: 1;
-
-  border: 1px solid red;
-
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -136,8 +133,8 @@ header.menu a:hover {
 
 /* Dan */
 .video {
-  border: 15px solid yellow;
-  background-color: green;
+  /* border: 15px solid yellow; */
+  /* background-color: green; */
 }
 
 iframe {
@@ -205,7 +202,6 @@ iframe {
 
 .papapig_location {
   justify-content: center;
-  border: 5px dashed red;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -241,7 +237,7 @@ iframe {
   /* display: block; */
   text-align: center;
   display: inline-block;
-  width: 30%;
+  width: 10%;
   /* border: 2px solid black; */
   height: 10%;
   margin-top: 15px;
@@ -271,7 +267,7 @@ iframe {
 canvas {
   width: 640px;
   height: 360px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   z-index: 1000
 }
 /* Laurence */
