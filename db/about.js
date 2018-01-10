@@ -12,7 +12,7 @@ db.larders.insert(
     {
       "name":"Laurence Woodward",
       "image":"images/daddyPigRight.png",
-      "profile":"Born Kal-El on the alien planet Krypton, Laurence's parents, Jor-El and Lara, realising the impending destruction facing their homeland, constructed a space-ship and sent Laurence hurtling through time and space, eventually reaching Earth where he was taken in by his adoptive parents, Jonathan and Martha Kent, in Smallville, Kansas, where he commutes from to this day."
+      "profile":"Born Kal-El on the alien planet Krypton, Laurence's parents, Jor-El and Lara, realising the impending destruction facing their homeland, constructed a space-ship and sent Laurence hurtling through time and space, eventually reaching Earth where he was taken in by his adoptive parents in rural Kansas, from whence he makes his daily commute to Edinburgh."
     },
     {
       "name":"Aline Mokfa",
