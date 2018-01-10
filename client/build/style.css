@@ -39,11 +39,17 @@ body, html {
 }
 
 #render_area{
-  background-color: red;
+  width: 600px;
+  height: 380px;
+  right: 30px;
+  bottom: 23px;
+  /* background-color: red; */
   align-self: center;
-  z-index: 1
-  border: 6px solid red;
+  z-index: 1;
+  border: 1px solid red;
   display: flex;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 /* piggies */
@@ -116,20 +122,19 @@ body, html {
 
 #buttonDiv, #soundIconDiv {
   display: block;
-  height: 20%;
   position: absolute;
 }
 
 #buttonDiv {
   top: 0%;
-  left: 90%;
-  z-index: 100;
+  left: 80%;
+  height: 20%;
 }
 
 #soundIconDiv {
-  top: 0%;
-  left: 80%;
-  z-index: 101;
+  height: 5%;
+  top: 30px;
+  left: 93%;
   opacity: 50%;
 }
 
