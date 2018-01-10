@@ -171,8 +171,12 @@ header.menu a:hover {
   opacity: 50%;
 }
 
-#animalName, #animalType {
+#animalName {
   text-align: center;
+}
+
+#animalType {
+  text-align: left;
 }
 
 #ppImage, #realImage, #soundButton, #animalName, #animalType, #soundIcon {
