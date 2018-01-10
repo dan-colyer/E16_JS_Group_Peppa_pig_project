@@ -6,23 +6,23 @@ db.larders.insert(
   [
     {
       "name":"Yan Ren",
-      "image":"images/madameGazelle.png",
+      "image":"images/mummyPigRight.png",
       "profile":"Yan rules!"
     },
     {
       "name":"Laurence Woodward",
-      "image":"images/daddyPig.png",
+      "image":"images/daddyPigRight.png",
       "profile":"Laurence sucks!"
     },
     {
       "name":"Aline Mokfa",
-      "image":"images/mummyPig.png",
+      "image":"images/peppa.png",
       "profile":"Aline's better!"
     },
     {
       "name":"Dan Coyler",
-      "image":"images/george.png",
-      "profile":"Dan's adequate",
+      "image":"images/georgeRight.png",
+      "profile":"Dan's adequate"
     }
   ]
 )
