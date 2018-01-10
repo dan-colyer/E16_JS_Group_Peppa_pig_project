@@ -18,7 +18,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/gbr.svg",
       "place of interest": "Buckingham Palace",
       "img": "images/papapig/London_Buckingham_Palace.jpg",
-      "embedURL": "<iframe width='640' height='360' src='https://www.youtube.com/embed/UrugXfGaHes?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+      "embedURL": "<iframe width='640' height='360' src='https://www.youtube.com/embed/UrugXfGaHes?rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Paris",
@@ -34,7 +34,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/fra.svg",
       "place of interest": "The Louvre",
       "img": "images/papapig/Paris_The_Louvre.jpg",
-      "embedURL": "<iframe width='640' height='360' src='https://www.youtube.com/embed/ZFOA6emXRP4' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
+      "embedURL": "<iframe width='640' height='360' src='https://www.youtube.com/embed/ZFOA6emXRP4?rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Beijing",
@@ -50,7 +50,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/chn.svg",
       "place of interest": "The Great Wall of China",
       "img": "images/papapig/Beijing_The_Great_Wall.jpg",
-      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/-UuJxmU6OCQ' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
+      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/-UuJxmU6OCQ?rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Canberra",
@@ -66,7 +66,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/aus.svg",
       "place of interest": "Parliament House",
       "img": "images/papapig/Canberra_Parliament_House.jpg",
-      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/UjJ_8hNyTZY' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
+      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/UjJ_8hNyTZY?rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Washington, D.C.",
@@ -82,7 +82,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/usa.svg",
       "place of interest": "WashingtonDC_Smithsonian Institution",
       "img": "images/papapig/WashingtonDC_Smithsonian_Institution.jpg",
-      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/s3axMLV_eVI' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
+      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/s3axMLV_eVI?rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Brasília",
@@ -98,7 +98,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/bra.svg",
       "place of interest": "Itamaraty Palace",
       "img": "images/papapig/Brasilia_Itamaraty_Palace.jpg",
-      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/9UJuZvWwgt4' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
+      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/9UJuZvWwgt4?rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Pretoria",
@@ -122,7 +122,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/zaf.svg",
       "place of interest": "Union Buildings",
       "img": "images/papapig/Pretoria_Union_Buildings.jpg",
-      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/NfRtF8Rd7wQ' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
+      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/NfRtF8Rd7wQ?rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Ottawa",
@@ -139,7 +139,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/can.svg",
       "place of interest": "Canadian Museum of History",
       "img": "images/papapig/Canadian_Museum_of_History.jpg",
-      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/L9hM5mzBr7U' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
+      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/L9hM5mzBr7U?rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Moscow",
@@ -155,7 +155,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/rus.svg",
       "place of interest": "Red Square",
       "img": "images/papapig/Moscow_Red_Square.jpg",
-      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/pnN2BNrSrXY' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
+      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/pnN2BNrSrXY?rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     },
     {
       "name":"Dublin",
@@ -172,7 +172,7 @@ db.cities.insert(
       "flag": "https://restcountries.eu/data/irl.svg",
       "place of interest": "Guinness Storehouse",
       "img": "images/papapig/Dublin_Guinness_Storehouse.jpg",
-      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/LcKnx7I97yk' frameborder='0' gesture='media' allow='encrypted-media' allowfullscreen></iframe>"
+      "embedURL":"<iframe width='640' height='360' src='https://www.youtube.com/embed/LcKnx7I97yk?rel=0&amp;autoplay=1&amp;controls=0&amp;showinfo=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
     }
 
   ]

@@ -176,6 +176,10 @@ iframe {
   border-radius: 25px;
 }
 
+#cityButton:hover {
+  font-weight: 600;
+}
+
 #render_area iframe {
   margin-top: -2px;
   margin-left: 2px;
@@ -249,144 +253,6 @@ canvas {
 }
 /* Laurence */
 
-
-
-
-/* PREVIOUS CODE - Not in use */
-/* .container {
-  background-image: url("./images/background_img.png");
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  max-height: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-  background-repeat: no-repeat;
-  z-index: 1;
-}
-
-header.menu {
-  background-color: #8FBBE1;
-  overflow: auto;
-  white-space: nowrap;
-  text-align: center;
-}
-
-header.menu a {
-  display: inline-block;
-  color: white;
-  padding: 14px;
-  text-decoration: none;
-  text-align: center;
-  font-size: large;
-  background-color: #5E80BE;
-  color: #FD9CCB;
-  border-radius: 25px;
-}
-
-header.menu a:hover {
-  background-color: #5E80BE;
-  color: #FD9CCB;
-  transform: scale(1.1);
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 15% 70% 15%;
-}
-.wrapper > div {
-  padding: 2em;
-}
-
-.top-left-side-content img {
-  width: 150px;
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  left: 5px;
-}
-
-.bottom-left-side-content img {
-  width: 100px;
-  height: 110px;
-  display: block;
-  margin-left: 30px;
-  margin-right: auto;
-  padding-top: 95px;
-}
-
-.top-right-side-content img {
-  width: 150px;
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-right: 20px;
-  position: relative;
-  right: 40px;
-}
-
-.bottom-right-side-content img {
-  width: 150px;
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-right: 20px;
-  padding-top: 40px;
-  position: relative;
-  right: 35px;
-}
-
-#TV-section {
-  width: 750px;
-  height: 400px;
-  display: block;
-  background-image: url('images/tv.png');
-  background-repeat: no-repeat; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* z-index: 3; */
-  /* position: relative; */
-  /* border-color: red;
-  border-width: 10px;
-  border-spacing: 5px;
-}*/
-
-
-
-/* TV Screen */
-/* #render_area { */
-  /* position: absolute;
-  z-index: 2; */
-  /* bottom: 200px;
-  margin: auto;
-  border-color: black;
-  border-style: dashed;
-}*/
-
-/* mamapig */
-/* .top-left-side-content img:hover{
-  transform: scale(1.2);
-} */
-
-/* peppapig */
-/* .bottom-left-side-content img:hover{
-  transform: scale(1.2);
-} */
-
-/* papapig */
-/* .top-right-side-content img:hover{
-  transform: scale(1.2);
-} */
-
-/* madamgazelle */
-/* .bottom-right-side-content img:hover{
-  transform: scale(1.2);
-} */
 
 #larderNameDiv {
   width: 100%;
