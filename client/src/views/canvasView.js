@@ -9,25 +9,27 @@ CanvasView.prototype.render = function(){
 
   const canvas = document.createElement('canvas');
   canvas.id = "canvas";
-  const input = document.createElement('input');
-  input.id = "color-picker";
-  input.type = "color";
-  const eraser = document.createElement('button');
-  eraser.innerText = "Eraser";
-  eraser.id = "eraser";
+  canvas.style.backgroundColor = white;
+  // const input = document.createElement('input');
+  // input.id = "color-picker";
+  // input.type = "color";
+  // const eraser = document.createElement('button');
+  // eraser.innerText = "Eraser";
+  // eraser.id = "eraser";
 
   renderArea.appendChild(canvas);
-  renderArea.appendChild(input);
-  renderArea.appendChild(eraser);
+  // renderArea.appendChild(input);
+  // renderArea.appendChild(eraser);
 
-  const cleanBoard = function(){
-    context.clearRect(0, 0, canvas.width, canvas.height);
-  }
-
-  eraser.addEventListener('click', cleanBoard);
+  // const cleanBoard = function(){
+  //   context.clearRect(0, 0, canvas.width, canvas.height);
+  // }
+  //
+  // eraser.addEventListener('click', cleanBoard);
 
   canvas.className = "peppapig_canvas"
   const context = canvas.getContext('2d')
+  // context.lineWidth = 100;
 
 
 
