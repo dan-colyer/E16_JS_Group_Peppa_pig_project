@@ -234,15 +234,13 @@ iframe {
 }
 
 #soundIconDiv {
-  /* display: block; */
   text-align: center;
   display: inline-block;
   width: 10%;
-  /* border: 2px solid black; */
   height: 10%;
-  margin-top: 15px;
+  margin-top: 4%;
   top: 25%;
-  left: 99%;
+  margin-left: 10%;
   z-index: 99;
 }
 
