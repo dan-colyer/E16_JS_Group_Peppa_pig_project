@@ -1,4 +1,10 @@
+@font-face {
+font-family: peppa_pig;
+src: url(/fonts/peppa_pig.ttf);
+}
+
 body, html {
+  font-family: peppa_pig;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -183,22 +189,14 @@ iframe {
   /* border: 1px solid black; */
 }
 
-#buttonDiv, #soundIconDiv {
-  display: block;
-  position: absolute;
-}
-
-#buttonDiv {
-  top: 0%;
-  left: 80%;
-  height: 20%;
-}
-
 #soundIconDiv {
+  display: block;
+  width: 5%;
+  border: 2px solid black;
   height: 5%;
-  top: 30px;
+  top: 10%;
   left: 93%;
-  opacity: 50%;
+  z-index: 99;
 }
 
 #animalName {
@@ -209,7 +207,7 @@ iframe {
   text-align: left;
 }
 
-#ppImage, #realImage, #soundButton, #animalName, #animalType, #soundIcon {
+#ppImage, #realImage, #animalName, #animalType, #soundIcon {
   max-width: 100%;
   max-height: 100%;
 }
@@ -390,4 +388,8 @@ header.menu a:hover {
   min-height: 100%;
   max-width: 100%;
   max-height: 100%;
+}
+
+.mamapig_animal {
+  background-image: url("./images/background_img.png");
 }
