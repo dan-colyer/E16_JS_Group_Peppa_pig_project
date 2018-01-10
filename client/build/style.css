@@ -111,7 +111,7 @@ header.menu a:hover {
 }
 
 #madamGazelle {
-  background-image: url("/images/madameGazelle.png");
+  background-image: url("/images/george.png");
 
 }
 
@@ -184,7 +184,7 @@ header.menu a:hover {
 
 
 
-
+/* PREVIOUS CODE - Not in use */
 /* .container {
   background-image: url("./images/background_img.png");
   background-size: cover;
