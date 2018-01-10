@@ -135,10 +135,13 @@ header.menu a:hover {
 .video {
   /* border: 15px solid yellow; */
   /* background-color: green; */
+  margin-right: 50px;
 }
 
 iframe {
-  margin: auto;
+  /* position: absolute;
+  margin-left: 0px; */
+  /* margin: auto; */
 }
 
 /* #tester {
@@ -148,8 +151,18 @@ iframe {
 /* Dan */
 
 /* Yan */
-#city-name {
+/* #eraser, #color-picker {
+  margin: auto;
+  height: 100px;
+  z-index: 200;
+} */
 
+#canvas {
+  /* background-color: white; */
+  margin: auto;
+  height: 108%;
+  width: 110%;
+  margin-left: -20px;
 }
 
 #divMap {
@@ -205,6 +218,7 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  margin-right: 50px;
 }
 
 
