@@ -1,7 +1,7 @@
 const PapapigView = require('./views/papapigView.js');
 const MadamGazelleView = require('./views/madamGazelleView.js')
 const MamapigView = require('./views/mamaPigView.js')
-const PeppapigView = require('./views/canvasView.js')
+const CanvasView = require('./views/canvasView.js')
 
 const app = function(){
   console.log("Hello world")
@@ -20,9 +20,9 @@ const app = function(){
   mamapigButton.addEventListener('click', mamapigView.render);
 
   const peppapigButton = document.querySelector('#peppapig');
-  const peppapigView = new CanvasView();
-  peppapigButton.addEventListener('click', peppapigView.render);
-  
+  const canvasView = new CanvasView();
+  peppapigButton.addEventListener('click', canvasView.render);
+
 }
 
 
