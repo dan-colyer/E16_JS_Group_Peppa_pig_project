@@ -20,12 +20,14 @@ PapapigView.prototype.render = function() {
       divCombineMapAndImg.id = 'mapAndImg';
       const divCityName = document.createElement('button');
       divCityName.innerText = city.name;
+      divCityName.id = "cityButton"
       mainRenderDiv.appendChild(divCityName);
       mainRenderDiv.appendChild(divCombineMapAndImg);
 
       divCityName.addEventListener('click', function(){
-        divCombineMapAndImg.innerHTML = "";
-        divCombineMapAndImg.innerHTML = city.embedURL;
+        // divCombineMapAndImg.innerHTML = "";
+        mainRenderDiv.innerHTML = "";
+        mainRenderDiv.innerHTML = city.embedURL;
       });
 
       const divMap = document.createElement('div');
