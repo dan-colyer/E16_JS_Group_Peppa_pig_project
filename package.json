@@ -1,0 +1,30 @@
+{
+  "name": "peppa_pig",
+  "version": "1.0.0",
+  "description": "The BBC are looking to improve their online offering of educational content by developing some interactive apps that display information in a fun and interesting way.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "cd client && webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yannyren/E16_JS_Group_Peppa_pig_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yannyren/E16_JS_Group_Peppa_pig_project/issues"
+  },
+  "homepage": "https://github.com/yannyren/E16_JS_Group_Peppa_pig_project#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1",
+    "nodemon": "^1.14.9"
+  }
+}
