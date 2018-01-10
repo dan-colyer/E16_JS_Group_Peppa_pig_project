@@ -7,7 +7,7 @@ db.larders.insert(
     {
       "name":"Yan Ren",
       "image":"images/mummyPigRight.png",
-      "profile":"Sent to the UK by the Chinese government to infiltrate the highest levels of the tech sector, Yan has developed a love for CodeClan's 16 week intensive programming course, which she has now completed eight times. Her hobbies include destroying any and all mere mortal table-tennis wannabes and completing CodeClan's 16 week intensive programming course."
+      "profile":"Sent by the Chinese government to infiltrate the highest levels of the UK tech sector, Yan has developed a love for CodeClan's 16 week intensive programming course, which she has now completed eight times. Her hobbies include destroying any and all mere mortal table-tennis wannabes, eating, and completing CodeClan's 16 week intensive programming course."
     },
     {
       "name":"Laurence Woodward",
