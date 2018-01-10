@@ -14,6 +14,7 @@ PapapigView.prototype.render = function() {
 
       const mainRenderDiv = document.querySelector('#render_area');
       mainRenderDiv.innerHTML = "";
+      mainRenderDiv.className = "papapig_location"
 
       const divCombineMapAndImg = document.createElement('div');
       divCombineMapAndImg.id = 'mapAndImg';

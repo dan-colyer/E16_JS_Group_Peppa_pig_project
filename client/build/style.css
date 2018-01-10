@@ -112,12 +112,28 @@ header.menu a:hover {
 
 #madamGazelle {
   background-image: url("/images/george.png");
-
 }
 
 #peppapig {
   background-image: url("/images/peppa.png");
 }
+
+/* Dan */
+.video {
+  border: 150px solid yellow;
+  background-color: green;
+  margin-left: 250;
+}
+
+iframe {
+  margin: auto;
+}
+
+/* #tester {
+  border: 15px solid yellow;
+} */
+
+/* Dan */
 
 /* Yan */
 #city-name {
@@ -137,10 +153,22 @@ header.menu a:hover {
   height: 250px;
   border: 5px solid green;
 }
+
+.papapig_location {
+  background-color: purple;
+}
 /* Yan */
 
 
 /* Laurence */
+.mamapig_animal {
+  background-color: black;
+}
+
+.papapig_location {
+  background-color: purple;
+}
+
 #nameDiv, #typeDiv {
   width: 50%;
   height: 20%;
