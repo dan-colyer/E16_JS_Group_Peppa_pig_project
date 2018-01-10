@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
     "build": "cd client && webpack -w",
-    "db": "mongo < db/about.js && mongo < db/canvas.js && mongo < db/madamGazelle.js && mongo < db/mamapig.js && mongo < db/papapig.js"
+    "seeds": "mongo < db/about.js && mongo < db/canvas.js && mongo < db/madamGazelle.js && mongo < db/mamapig.js && mongo < db/papapig.js"
   },
   "repository": {
     "type": "git",
