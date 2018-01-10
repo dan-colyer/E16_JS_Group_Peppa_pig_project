@@ -20,11 +20,14 @@ const app = function(){
   const mamapigView = new MamapigView();
   mamapigButton.addEventListener('click', mamapigView.render);
 
+  const peppapigButton = document.querySelector('#peppapig');
+  const canvasView = new CanvasView();
+  peppapigButton.addEventListener('click', canvasView.render);
 
   const aboutButton = document.querySelector('#about');
   const aboutView = new AboutView();
   aboutButton.addEventListener('click', aboutView.render);
-
+}
 
 
 

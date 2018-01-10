@@ -5,7 +5,7 @@ const CanvasView = function(){
 CanvasView.prototype.render = function(){
   console.log("canvas render")
   const canvas = document.querySelector('canvas')
-  canvas.className = 'peppapig_canvas'
+  canvas.className = "peppapig_canvas"
   const context = canvas.getContext('2d')
 
   // context.clearRect(0, 0, canvas.width, canvas.height);
