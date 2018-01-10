@@ -120,8 +120,12 @@ header.menu a:hover {
 }
 
 #madamGazelle {
+<<<<<<< HEAD
   background-image: url("/images/george_button.png");
 
+=======
+  background-image: url("/mages/george_button.png");
+>>>>>>> 6b2c0a7559a321f6d2ab0ea4bf1a936b25f756ac
 }
 
 #peppapig {
