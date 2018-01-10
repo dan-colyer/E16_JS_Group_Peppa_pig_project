@@ -4,14 +4,44 @@ body, html {
   padding: 0;
 }
 
+header.menu {
+  background-color: #8FBBE1;
+  overflow: auto;
+  white-space: nowrap;
+  text-align: center;
+  height: 15%;
+
+}
+
+header.menu a {
+  display: inline-block;
+  color: white;
+  padding: 14px;
+  text-decoration: none;
+  text-align: center;
+  font-size: large;
+  background-color: #5E80BE;
+  color: #FD9CCB;
+  border-radius: 25px;
+}
+
+header.menu a:hover {
+  background-color: #5E80BE;
+  color: #FD9CCB;
+  transform: scale(1.1);
+}
+
 
 /* container setup */
 #container {
   width: 100%;
+  height: 100%;
   background-image: url("./images/background_img.png");
-  margin: 0 auto;
+  background-size: contain;
+  /* margin: 0 auto; */
   display: flex;
   justify-content: center;
+  padding-top: 30px;
 }
 /* insides, yo */
 #col_left, #col_right {
@@ -62,6 +92,8 @@ body, html {
   height: 200px;
   background-repeat: no-repeat;
   border: 5px solid red;
+  background-size: 160px 200px;
+  background-position: center;
 }
 
 #mamapig {
@@ -74,6 +106,7 @@ body, html {
 
 #madamGazelle {
   background-image: url("/images/madameGazelle.png");
+
 }
 
 #peppapig {
