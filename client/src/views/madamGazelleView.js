@@ -11,17 +11,11 @@ MadamGazelleView.prototype.render = function(video) {
       console.log(allVideos);
 
       var randomVideo = allVideos[Math.floor(Math.random()*allVideos.length)];
-      // console.log(randomVideo.embedID);
 
       const renderArea = document.querySelector('#render_area');
       renderArea.innerHTML = randomVideo.embedURL;
 
-      // const ul = document.querySelector('#quotes');
-      //   const li = document.createElement('li');
-      //   const text = document.createElement('p');
-      //   text.innerText = `${quote.name}: "${quote.quote}"`;
-      //   li.appendChild(text);
-      //   ul.appendChild(li);
+      renderArea.className = "video"
     });
 
 }

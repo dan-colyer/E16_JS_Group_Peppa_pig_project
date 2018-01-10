@@ -25,7 +25,7 @@ MongoClient.connect('mongodb://localhost:27017', function(err, client) {
         return Math.floor(Math.random() * Math.floor(max));
       }
       const randomAnimalIndex = randomNumber(result.length);
-      res.json(result[0]);
+      res.json(result[randomAnimalIndex]);
     })
   })
 

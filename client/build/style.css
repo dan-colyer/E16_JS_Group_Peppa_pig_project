@@ -69,11 +69,19 @@ header.menu a:hover {
 }
 
 #render_area{
-  background-color: red;
+  width: 600px;
+  height: 380px;
+  right: 30px;
+  bottom: 23px;
+  /* background-color: red; */
   align-self: center;
   z-index: 1;
-  border: 6px solid red;
+
+  border: 1px solid red;
+
   display: flex;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 /* piggies */
@@ -105,13 +113,29 @@ header.menu a:hover {
 }
 
 #madamGazelle {
-  background-image: url("/images/madameGazelle.png");
-
+  background-image: url("/images/george.png");
 }
 
 #peppapig {
   background-image: url("/images/peppa.png");
 }
+
+/* Dan */
+.video {
+  border: 150px solid yellow;
+  background-color: green;
+  margin-left: 250;
+}
+
+iframe {
+  margin: auto;
+}
+
+/* #tester {
+  border: 15px solid yellow;
+} */
+
+/* Dan */
 
 /* Yan */
 #city-name {
@@ -131,10 +155,22 @@ header.menu a:hover {
   height: 250px;
   border: 5px solid green;
 }
+
+.papapig_location {
+  background-color: purple;
+}
 /* Yan */
 
 
 /* Laurence */
+.mamapig_animal {
+  background-color: black;
+}
+
+.papapig_location {
+  background-color: purple;
+}
+
 #nameDiv, #typeDiv {
   width: 50%;
   height: 20%;
@@ -149,20 +185,19 @@ header.menu a:hover {
 
 #buttonDiv, #soundIconDiv {
   display: block;
-  height: 20%;
   position: absolute;
 }
 
 #buttonDiv {
   top: 0%;
-  left: 90%;
-  z-index: 100;
+  left: 80%;
+  height: 20%;
 }
 
 #soundIconDiv {
-  top: 0%;
-  left: 80%;
-  z-index: 101;
+  height: 5%;
+  top: 30px;
+  left: 93%;
   opacity: 50%;
 }
 
@@ -186,7 +221,7 @@ canvas {
 
 
 
-
+/* PREVIOUS CODE - Not in use */
 /* .container {
   background-image: url("./images/background_img.png");
   background-size: cover;
@@ -287,8 +322,8 @@ header.menu a:hover {
   /* position: relative; */
   /* border-color: red;
   border-width: 10px;
-  border-spacing: 5px; */
-}
+  border-spacing: 5px;
+}*/
 
 
 
@@ -299,8 +334,8 @@ header.menu a:hover {
   /* bottom: 200px;
   margin: auto;
   border-color: black;
-  border-style: dashed; */
-}
+  border-style: dashed;
+}*/
 
 /* mamapig */
 /* .top-left-side-content img:hover{
@@ -321,3 +356,34 @@ header.menu a:hover {
 /* .bottom-right-side-content img:hover{
   transform: scale(1.2);
 } */
+
+#larderNameDiv {
+  width: 100%;
+  height: 15%;
+}
+
+#larderName {
+  text-align: center;
+}
+
+#larderImageDiv {
+  width: 50%;
+  height: 75%;
+}
+
+#larderProfileDiv {
+  width: 45%;
+  height: 75%;
+  right: 5%;
+}
+
+#larderProfile {
+  font-size: 18px;
+}
+
+#larderImage {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}

@@ -24,6 +24,7 @@ MamaPigView.prototype.render = function() {
 
       const renderDiv = document.querySelector('#render_area');
       renderDiv.innerHTML = "";
+      renderDiv.className = "mamapig_animal"
 
       const nameDiv = addDivToAnotherDiv(renderDiv, 'nameDiv');
       const typeDiv = addDivToAnotherDiv(renderDiv, 'typeDiv');
