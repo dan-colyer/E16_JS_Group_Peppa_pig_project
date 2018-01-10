@@ -19,18 +19,16 @@ MamaPigView.prototype.render = function() {
       this.ppImage = animal.ppImage;
       this.realImage = animal.realImage;
       this.sound = animal.sound;
-      this.button = animal.button;
 
 
       const renderDiv = document.querySelector('#render_area');
       renderDiv.innerHTML = "";
-      renderDiv.className = "mamapig_animal"
+      renderDiv.className = "mamapig_animal";
 
       const nameDiv = addDivToAnotherDiv(renderDiv, 'nameDiv');
       const typeDiv = addDivToAnotherDiv(renderDiv, 'typeDiv');
       const ppImageDiv = addDivToAnotherDiv(renderDiv, 'ppImageDiv');
       const realImageDiv = addDivToAnotherDiv(renderDiv, 'realImageDiv');
-      const buttonDiv = addDivToAnotherDiv(renderDiv, 'buttonDiv');
       const soundIconDiv = addDivToAnotherDiv(renderDiv, 'soundIconDiv');
 
       const animalName = addNameToDiv(nameDiv, 'animalName', this.name);
@@ -38,7 +36,6 @@ MamaPigView.prototype.render = function() {
       const peppaImage = addImageToDiv(ppImageDiv, 'ppImage', __dirname + this.ppImage);
       const realImage = addImageToDiv(realImageDiv,'realImage', __dirname + this.realImage);
       const animalSound = createSoundElement(this.sound);
-      const soundButton = addSoundButtonToDiv(buttonDiv, 'soundButton', animalSound, this.button);
       const soundIcon = addSoundButtonToDiv(soundIconDiv, 'soundButton', animalSound, __dirname + 'images/mamapig/buttons/soundIcon.svg');
 
 
