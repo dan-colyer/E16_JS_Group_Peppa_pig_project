@@ -50,7 +50,7 @@ header.menu a:hover {
 }
 #col_middle {
   width: 70%;
-  height: 537px;
+  /* height: 537px; */
   display: flex;
   justify-content: center;
   /* background-color: yellow; */
@@ -76,7 +76,9 @@ header.menu a:hover {
   /* background-color: red; */
   align-self: center;
   z-index: 1;
+
   border: 1px solid red;
+
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -112,12 +114,28 @@ header.menu a:hover {
 
 #madamGazelle {
   background-image: url("/images/george.png");
-
 }
 
 #peppapig {
   background-image: url("/images/peppa.png");
 }
+
+/* Dan */
+.video {
+  border: 150px solid yellow;
+  background-color: green;
+  margin-left: 250;
+}
+
+iframe {
+  margin: auto;
+}
+
+/* #tester {
+  border: 15px solid yellow;
+} */
+
+/* Dan */
 
 /* Yan */
 #city-name {
@@ -137,10 +155,22 @@ header.menu a:hover {
   height: 250px;
   border: 5px solid green;
 }
+
+.papapig_location {
+  background-color: purple;
+}
 /* Yan */
 
 
 /* Laurence */
+.mamapig_animal {
+  background-color: black;
+}
+
+.papapig_location {
+  background-color: purple;
+}
+
 #nameDiv, #typeDiv {
   width: 50%;
   height: 20%;
@@ -182,6 +212,13 @@ header.menu a:hover {
 #ppImage, #realImage, #soundButton, #animalName, #animalType, #soundIcon {
   max-width: 100%;
   max-height: 100%;
+}
+
+canvas {
+  width: 640px;
+  height: 360px;
+  border: 1px solid black;
+  z-index: 1000
 }
 /* Laurence */
 
