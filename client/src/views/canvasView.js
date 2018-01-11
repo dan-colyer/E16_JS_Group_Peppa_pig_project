@@ -9,7 +9,7 @@ CanvasView.prototype.render = function(){
 
   const canvas = document.createElement('canvas');
   canvas.id = "canvas";
-  canvas.style.backgroundColor = white;
+  canvas.style.backgroundColor = "white";
   // const input = document.createElement('input');
   // input.id = "color-picker";
   // input.type = "color";

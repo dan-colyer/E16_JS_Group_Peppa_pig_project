@@ -24,7 +24,7 @@ const app = function(){
   const canvasView = new CanvasView();
   peppapigButton.addEventListener('click', canvasView.render);
 
-  const aboutButton = document.querySelector('#about');
+  const aboutButton = document.querySelector('#logopig');
   const aboutView = new AboutView();
   aboutButton.addEventListener('click', aboutView.render);
 }
