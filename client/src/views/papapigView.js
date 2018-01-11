@@ -14,17 +14,20 @@ PapapigView.prototype.render = function() {
 
       const mainRenderDiv = document.querySelector('#render_area');
       mainRenderDiv.innerHTML = "";
+      mainRenderDiv.className = "papapig_location"
 
       const divCombineMapAndImg = document.createElement('div');
       divCombineMapAndImg.id = 'mapAndImg';
       const divCityName = document.createElement('button');
       divCityName.innerText = city.name;
+      divCityName.id = "cityButton"
       mainRenderDiv.appendChild(divCityName);
       mainRenderDiv.appendChild(divCombineMapAndImg);
 
       divCityName.addEventListener('click', function(){
-        divCombineMapAndImg.innerHTML = "";
-        divCombineMapAndImg.innerHTML = city.embedURL;
+        // divCombineMapAndImg.innerHTML = "";
+        mainRenderDiv.innerHTML = "";
+        mainRenderDiv.innerHTML = city.embedURL;
       });
 
       const divMap = document.createElement('div');
@@ -39,6 +42,8 @@ PapapigView.prototype.render = function() {
       divCombineMapAndImg.appendChild(divCityImg);
       divCityImg.src = __dirname + city.img;
     });
+
+
 
 }
 
