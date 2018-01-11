@@ -42,7 +42,7 @@ db.animals.insert(
     {
       "name":"Mummy Pig",
       "type":"Pig",
-      "ppImage":"images/mamapig/ppImages/mummy_pig.png",
+      "ppImage":"images/mamapig/ppImages/mummyPig.png",
       "realImage":"images/mamapig/realImages/pig.jpg",
       "sound":"sounds/pig.wav"
     },
