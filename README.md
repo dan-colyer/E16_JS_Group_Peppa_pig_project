@@ -7,7 +7,6 @@ Your task is to make an MVP to put forward to them - this may only be for a smal
 
 ### MVP
 1. App should display a TV set in the centre of the page with icons around to enter different activities.
-  - when page is opened will show an introduction video (perhaps Peppa Pig theme) on the TV screen.
 2. Daddy Pig activity: TV will display google map of where Daddy Pig has gone with information about the location.
 3. Mummy Pig activity: TV will display various animal characters from Peppa Pig with images of their real counterparts.
 
